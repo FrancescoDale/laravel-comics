@@ -6,7 +6,18 @@
     @include('partials.jumbotron')
     <section id="series">
         <div class="container">
-
+            <div class="cards-container">
+                @foreach ($series as $item)
+                    <div class="cardbox">
+                        <div class="card-img">
+                            <img src="{{ $item['thumb'] }}" alt="{{ $item['title'] }}">
+                        </div>
+                        <div class="card-info">
+                            <span class="text-uppercase"> {{ $item['series'] }}</span>
+                        </div>
+                    </div>
+                @endforeach                
+            </div>
         </div>
     </section>
 @endsection

@@ -40,6 +40,7 @@ a:hover {
 .jumbotron {
   background-image: url("/images/jumbotron.jpg");
   padding: 200px 0;
+  margin-bottom: 0;
 }
 
 header a {
@@ -80,5 +81,16 @@ header .header-navbar .header-wrapper a {
 header .header-navbar .header-wrapper a:hover,
 header .header-navbar .header-wrapper a:active {
   color: #0282F9;
+}
+
+#series {
+  background-color: #1C1C1C;
+  color: #FFF;
+}
+
+.cards-container {
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 

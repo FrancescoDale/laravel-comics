@@ -1,0 +1,10 @@
+#series {
+    background-color: $darkBackground;
+    color: #FFF;
+}
+
+.cards-container {
+    padding: $sizeUnit * 3 0;
+    display: flex;
+    flex-wrap: wrap;
+}
