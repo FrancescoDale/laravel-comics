@@ -37,6 +37,11 @@ a:hover {
   text-decoration: none;
 }
 
+.jumbotron {
+  background-image: url("/images/jumbotron.jpg");
+  padding: 200px 0;
+}
+
 header a {
   font-size: 16px;
   font-weight: bold;
