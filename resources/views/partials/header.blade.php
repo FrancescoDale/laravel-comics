@@ -11,7 +11,7 @@
             </ul>
         </nav>
     </div>
-    <div class="header-navbar">
+    <div class="header-navbar container">
         <div class="header-wrapper">
             <div class="logo">
                 <a href="#">
@@ -54,7 +54,8 @@
 
             </div>
             <div class="search">
-
+                <input type="text" name="" value="">
+                <i class="fas fa-search"></i>
             </div>
         </div>
     </div>

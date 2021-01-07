@@ -37,27 +37,43 @@ a:hover {
   text-decoration: none;
 }
 
-.header-up {
+header a {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+  display: inline-block;
+}
+
+header .header-up {
   background-color: #0282F9;
   color: #FFF;
   text-align: right;
 }
 
-.header-up a {
+header .header-up a {
   color: #FFF;
   font-size: 12px;
   font-weight: 600px;
   padding: 5px;
-  display: inline-block;
 }
 
-.header-up li:last-child {
+header .header-up li:last-child {
   margin-left: 60px;
 }
 
-.header-navbar .header-wrapper {
+header .header-navbar .header-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+header .header-navbar .header-wrapper a {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #464646;
+}
+
+header .header-navbar .header-wrapper a:hover,
+header .header-navbar .header-wrapper a:active {
+  color: #0282F9;
 }
 
