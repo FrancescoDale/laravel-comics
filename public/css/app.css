@@ -92,5 +92,18 @@ header .header-navbar .header-wrapper a:active {
   padding: 30px 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cards-container .cardbox {
+  flex-basis: 185px;
+}
+
+.cards-container .cardbox .card-img {
+  width: 185px;
+}
+
+.cards-container .cardbox .card-img img {
+  width: 100%;
 }
 

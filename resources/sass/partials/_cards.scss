@@ -7,4 +7,17 @@
     padding: $sizeUnit * 3 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+
+    .cardbox {
+        flex-basis: 185px;
+
+        .card-img {
+            width: 185px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
 }
