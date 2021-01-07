@@ -1,7 +1,28 @@
 .header-up {
     background-color: $mainColor;
     color : #FFF;
+    text-align: right;
+
     a {
         color: #FFF;
+        font-size: $sizeUnit * 1.2;
+        font-weight: 600px;
+        padding: $sizeUnit * 0.5;
+        display: inline-block;
+    }
+
+    li {
+
+        &:last-child {
+            margin-left: $sizeUnit * 6;
+        }
+    }
+}
+
+.header-navbar {
+    .header-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 }

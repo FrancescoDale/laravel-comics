@@ -4,8 +4,21 @@
   box-sizing: border-box;
 }
 
-container::after,
-container-fluid::after {
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.container::after,
+.container-fluid::after {
   clear: both;
   content: "";
   display: table;
@@ -27,9 +40,24 @@ a:hover {
 .header-up {
   background-color: #0282F9;
   color: #FFF;
+  text-align: right;
 }
 
 .header-up a {
   color: #FFF;
+  font-size: 12px;
+  font-weight: 600px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.header-up li:last-child {
+  margin-left: 60px;
+}
+
+.header-navbar .header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
