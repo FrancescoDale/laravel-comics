@@ -4,3 +4,32 @@
   box-sizing: border-box;
 }
 
+container::after,
+container-fluid::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.header-up {
+  background-color: #0282F9;
+  color: #FFF;
+}
+
+.header-up a {
+  color: #FFF;
+}
+
