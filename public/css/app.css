@@ -68,8 +68,8 @@ header .header-up li:last-child {
 
 header .header-navbar .header-wrapper {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
 header .header-navbar .header-wrapper a {

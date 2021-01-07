@@ -31,8 +31,8 @@ header {
     .header-navbar {
         .header-wrapper {
             display: flex;
-            align-items: center;
             justify-content: space-between;
+            align-items: center;
             a {
                 font-family: $hFont;
                 color: #464646;
