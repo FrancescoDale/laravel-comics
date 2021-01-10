@@ -1,0 +1,25 @@
+footer {
+
+    .footer-top {
+        background-image: url('/images/footer-bg.jpg');
+        background-size: cover;
+    }
+
+    .footer-top-inner {
+        padding: 200px 0;
+        background-image: url('/images/dc-logo-bg.png');
+        background-position: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
+    .footer-top-left, .footer-top-right {
+        width: 50%;
+    }
+
+    .footer-bottom {
+        background-color: $darkBackground;
+        padding-top: $sizeUnit * 10;
+    }
+
+}
