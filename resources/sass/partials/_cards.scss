@@ -1,6 +1,13 @@
 #series {
     background-color: $darkBackground;
     color: #FFF;
+
+    .section_name {
+        background-color: $mainColor;
+        width: 25%;
+        padding: $sizeUnit *2;
+        transform: translateY(-50%);
+    }
 }
 
 .cards-container {
@@ -10,10 +17,12 @@
     justify-content: space-around;
 
     .cardbox {
-        flex-basis: 185px;
+        width: calc(100% / 4);
 
         .card-img {
-            width: 185px;
+
+            width: 80%;
+            margin: $sizeUnit * 3 0;
 
             img {
                 width: 100%;

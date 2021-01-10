@@ -20,6 +20,10 @@ header {
             padding: $sizeUnit * 0.5;
         }
 
+        ul {
+            margin: 0;
+        }
+
         li {
 
             &:last-child {
@@ -29,6 +33,8 @@ header {
     }
 
     .header-navbar {
+        padding: 16px;
+
         .header-wrapper {
             display: flex;
             justify-content: space-between;
@@ -36,11 +42,21 @@ header {
             a {
                 font-family: $hFont;
                 color: #464646;
+                display: inline-block;
                 &:hover, &:active {
                     color: $mainColor;
                 }
             }
+            .logo {
+                height: 100%;
+
+                img {
+                    height: 100%;
+                }
+            }
         }
+
+
     }
 
 }

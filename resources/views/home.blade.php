@@ -6,6 +6,9 @@
     @include('partials.jumbotron')
     <section id="series">
         <div class="container">
+            <div class="section_name text-uppercase text-center">
+                <h2>current series</h2>
+            </div>
             <div class="cards-container">
                 @foreach ($series as $item)
                     <div class="cardbox">
@@ -16,7 +19,7 @@
                             <span class="text-uppercase"> {{ $item['series'] }}</span>
                         </div>
                     </div>
-                @endforeach                
+                @endforeach
             </div>
         </div>
     </section>
