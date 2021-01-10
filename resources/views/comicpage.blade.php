@@ -6,7 +6,7 @@
     @include('partials.jumbotron')
     <section id="">
         <div class="container">
-
+            <h1> {{ $comic['title'] }}</h1>
         </div>
     </section>
 @endsection
