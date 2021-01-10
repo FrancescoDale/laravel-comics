@@ -21,6 +21,11 @@ Route::get('/', function () {
     return view('home', $data);
 });
 
-Route::get('/page', function(){
-    return view('page');
+Route::get('/comic/{id}', function($id) {
+    $comics = config('comics');
+    $item = $comics[$id];
+    $data = [
+        'comic' => $item;
+    ];
+    return view('comicpage', $data);
 });
