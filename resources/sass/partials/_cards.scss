@@ -19,6 +19,10 @@
     .cardbox {
         width: calc(100% / 4);
 
+        a {
+            display: inline-block;
+        }
+
         .card-img {
 
             width: 80%;

@@ -24,7 +24,7 @@ Route::get('/', function () {
 Route::get('/comic/{id}', function($id) {
     $comics = config('comics');
     // verifica che id non abbia valore > lunghezza array
-    if (array_key_exists($id. $comics)) {
+    if (array_key_exists($id, $comics)) {
         $item = $comics[$id];
         $data = [
             'comic' => $item
@@ -32,5 +32,5 @@ Route::get('/comic/{id}', function($id) {
         return view('comicpage', $data);
         } else {
             abort(404);
-        }    
-});
+        }
+})-> name('comic-page');

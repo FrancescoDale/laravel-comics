@@ -10,19 +10,19 @@
                 <h2>current series</h2>
             </div>
             <div class="cards-container">
-                @foreach ($series as $item)
+                @foreach ($series as $key => $item)
                     <div class="cardbox">
-                        <a href="#">
+                        <a href=" {{ route('comic-page', ['id' => $key]) }}">
                             <div class="card-img">
                                 <img src="{{ $item['thumb'] }}" alt="{{ $item['title'] }}">
                             </div>
                         </a>
-
                         <div class="card-info">
                             <span class="text-uppercase"> {{ $item['series'] }}</span>
                         </div>
+
                     </div>
-                @endforeach                
+                @endforeach
             </div>
         </div>
     </section>

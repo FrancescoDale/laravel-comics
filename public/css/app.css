@@ -123,6 +123,10 @@ header .header-navbar .header-wrapper .logo img {
   width: calc(100% / 4);
 }
 
+.cards-container .cardbox a {
+  display: inline-block;
+}
+
 .cards-container .cardbox .card-img {
   width: 80%;
   margin: 30px 0;
