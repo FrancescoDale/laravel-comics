@@ -4,8 +4,10 @@
 
 @section('content')
     @include('partials.jumbotron')
-    <section id="">
-        <div class="container">
+
+    <section id="" class="container">
+        <img src="{{ $comic['thumb']}}" alt="{{ $comic['title'] }}">
+        <div>
             <h1> {{ $comic['title'] }}</h1>
         </div>
     </section>
