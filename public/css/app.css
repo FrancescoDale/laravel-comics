@@ -210,13 +210,13 @@ header .header-navbar .header-wrapper .logo img {
 
 #detail-comic-info {
   font-family: "Open Sans", sans-serif;
-  background-color: #F5F5F5;
+  background-color: #F6F6F6;
   padding-top: 20px;
-  padding-bottom: 80px;
 }
 
 #detail-comic-info .details-row {
   padding-top: 20px;
+  padding-bottom: 80px;
   display: flex;
   justify-content: space-around;
 }
@@ -267,6 +267,36 @@ header .header-navbar .header-wrapper .logo img {
 #detail-comic-info .details-row .talent .name,
 #detail-comic-info .details-row .specs .name {
   justify-content: flex-end;
+}
+
+#detail-comic-info .buttons-bar {
+  display: flex;
+  flex-grow: 1;
+}
+
+#detail-comic-info .buttons-bar .icon-box {
+  width: calc(100% / 4);
+}
+
+#detail-comic-info .buttons-bar .icon-box a {
+  color: #9F9F9F;
+}
+
+#detail-comic-info .buttons-bar .icon-box a span:first-child {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#detail-comic-info .buttons-bar .icon-box .icon-box-icon {
+  background-image: url("/images/cta-icons.png");
+  background-position: 0 0;
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+}
+
+#detail-comic-info .buttons-bar .icon-box .icon-box-icon:hover {
+  background-position: 0 37px;
 }
 
 footer .footer-top {

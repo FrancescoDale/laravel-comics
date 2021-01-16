@@ -58,7 +58,7 @@
                         <span class="label">Written by :</span>
                         <span class="names">
                             @foreach ($comic['writers'] as $value)
-                                <a href="#">{{ $value }}</a>
+                                <a href="#">{{ $value }}  </a>
                             @endforeach
                         </span>
                     </li>
@@ -82,6 +82,32 @@
                 </ul>
             </div>
 
+        </div>
+        <div class="container buttons-bar">
+            <div class="icon-box text-right text-uppercase">
+                <a href="#">
+                    <span class="icon-box-text">digital comics</span>
+                    <span class="icon-box-icon"></span>
+                </a>
+            </div>
+            <div class="icon-box text-right text-uppercase">
+                <a href="#">
+                    <span class="icon-box-text">shop dc</span>
+                    <span class="icon-box-icon"></span>
+                </a>
+            </div>
+            <div class="icon-box text-right text-uppercase">
+                <a href="#">
+                    <span class="icon-box-text">comic shop locator</span>
+                    <span class="icon-box-icon"></span>
+                </a>
+            </div>
+            <div class="icon-box text-right text-uppercase">
+                <a href="#">
+                    <span class="icon-box-text">subscriptions</span>
+                    <span class="icon-box-icon"></span>
+                </a>
+            </div>
         </div>
     </section>
 
