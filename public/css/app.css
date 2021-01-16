@@ -145,6 +145,30 @@ header .header-navbar .header-wrapper .logo img {
 .comic-thumb-container img {
   position: absolute;
   bottom: 30px;
+  left: 350px;
+  border: 1px solid #FFF;
+}
+
+#main-comic-info .info-row {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+}
+
+#main-comic-info .info-row .comic-info {
+  width: 60%;
+}
+
+#main-comic-info .info-row .comic-info h1 {
+  color: #0282F9;
+}
+
+#main-comic-info .info-row .adv-box {
+  width: 40%;
+}
+
+#main-comic-info .info-row .adv-box img {
+  width: 100%;
 }
 
 footer .footer-top {
