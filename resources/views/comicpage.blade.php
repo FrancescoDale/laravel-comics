@@ -28,7 +28,9 @@
                     </div>
 
                 </div>
-                <div class="comic-description">
+                <div class="comic-description mt-4">
+                    <p> {{ $comic['description']}} </p>
+
 
                 </div>
 
@@ -37,6 +39,17 @@
                 <p class="text-uppercase mt-2">advertisement</p>
                 <img src="{{ asset("/images/adv.jpg") }}" alt="advertisement">
             </div>
+        </div>
+    </section>
+    <section id="detail-comic-info" class="container-fluid">
+        <div class="container details-row mt-4">
+            <div class="talent">
+
+            </div>
+            <div class="specs">
+
+            </div>
+
         </div>
     </section>
 

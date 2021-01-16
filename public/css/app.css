@@ -145,8 +145,12 @@ header .header-navbar .header-wrapper .logo img {
 .comic-thumb-container img {
   position: absolute;
   bottom: 30px;
-  left: 350px;
+  left: 450px;
   border: 1px solid #FFF;
+}
+
+#main-comic-info {
+  font-family: "Open Sans", sans-serif;
 }
 
 #main-comic-info .info-row {
@@ -196,7 +200,27 @@ header .header-navbar .header-wrapper .logo img {
 
 #main-comic-info .info-row .comic-availability span {
   color: #FFF;
+}
+
+#main-comic-info .info-row .comic-availability .comic-description {
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+#detail-comic-info {
   font-family: "Open Sans", sans-serif;
+  background-color: #F5F5F5;
+  height: 200px;
+}
+
+#detail-comic-info .details-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+#detail-comic-info .details-row .talent,
+#detail-comic-info .details-row .specs {
+  width: calc(50% - $sizeUnit);
 }
 
 footer .footer-top {

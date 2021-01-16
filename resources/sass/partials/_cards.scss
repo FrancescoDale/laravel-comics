@@ -43,12 +43,14 @@
     img {
         position: absolute;
         bottom: $sizeUnit * 3;
-        left: $sizeUnit *35;
+        left: $sizeUnit *45;
         border: 1px solid #FFF;
     }
 }
 
 #main-comic-info {
+
+    font-family: $mainFont;
 
     .info-row {
         display: flex;
@@ -92,11 +94,31 @@
 
             span {
                 color: #FFF;
-                font-family: $mainFont;
+            }
+
+            .comic-description {
+                line-height: 1.8;
+                font-size: $sizeUnit * 1.6;
             }
         }
 
     }
 
+
+}
+
+#detail-comic-info  {
+    font-family: $mainFont;
+    background-color: #F5F5F5;
+    height: 200px;
+
+    .details-row {
+        display: flex;
+        justify-content: space-around;
+
+        .talent, .specs {
+            width: calc(50% - $sizeUnit);
+        }
+    }
 
 }
