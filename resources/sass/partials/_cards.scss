@@ -113,11 +113,23 @@
     height: 200px;
 
     .details-row {
+        padding-top: $sizeUnit * 2;
         display: flex;
         justify-content: space-around;
 
+        h2 {
+            font-family: $hFont;
+            color: $darkBackground;
+        }
+
         .talent, .specs {
-            width: calc(50% - $sizeUnit);
+            width: 50%;
+            ul {
+                margin-top: $sizeUnit * 2;
+                li {
+                    display: block;
+                }
+            }
         }
     }
 

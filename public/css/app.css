@@ -214,13 +214,29 @@ header .header-navbar .header-wrapper .logo img {
 }
 
 #detail-comic-info .details-row {
+  padding-top: 20px;
   display: flex;
   justify-content: space-around;
 }
 
+#detail-comic-info .details-row h2 {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #1C1C1C;
+}
+
 #detail-comic-info .details-row .talent,
 #detail-comic-info .details-row .specs {
-  width: calc(50% - $sizeUnit);
+  width: 50%;
+}
+
+#detail-comic-info .details-row .talent ul,
+#detail-comic-info .details-row .specs ul {
+  margin-top: 20px;
+}
+
+#detail-comic-info .details-row .talent ul li,
+#detail-comic-info .details-row .specs ul li {
+  display: block;
 }
 
 footer .footer-top {

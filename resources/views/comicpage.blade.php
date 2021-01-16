@@ -42,12 +42,36 @@
         </div>
     </section>
     <section id="detail-comic-info" class="container-fluid">
-        <div class="container details-row mt-4">
+        <div class="container details-row">
             <div class="talent">
-
+                <h2 class="text-capitalize">talent</h2>
+                <ul>
+                    <li>
+                        <span class="label">Art by :</span>
+                        <span class="names"> </span>
+                    </li>
+                    <li>
+                        <span class="label">Written by :</span>
+                        <span class="names">  </span>
+                    </li>
+                </ul>
             </div>
             <div class="specs">
-
+                <h2 class="text-capitalize ">specs</h2>
+                <ul>
+                    <li>
+                        <span class="label">Series :</span>
+                        <span class="names">  </span>
+                    </li>
+                    <li>
+                        <span class="label">Price :</span>
+                        <span class="names">  </span>
+                    </li>
+                    <li>
+                        <span class="label">On sale date :</span>
+                        <span class="names">  </span>
+                    </li>
+                </ul>
             </div>
 
         </div>
