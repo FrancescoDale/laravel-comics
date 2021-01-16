@@ -34,3 +34,14 @@
         }
     }
 }
+
+.comic-thumb-container {
+    background-color: $mainColor;
+    position: relative;
+    padding: $sizeUnit * 5 0;
+
+    img {
+        position: absolute;
+        bottom: $sizeUnit * 3;
+    }
+}
