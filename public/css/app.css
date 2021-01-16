@@ -168,7 +168,35 @@ header .header-navbar .header-wrapper .logo img {
 }
 
 #main-comic-info .info-row .adv-box img {
+  width: 90%;
+}
+
+#main-comic-info .info-row .adv-box p {
+  font-size: 10px;
+}
+
+#main-comic-info .info-row .comic-availability {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
+  background-color: #55BA59;
+  border-bottom: 1px solid #357739;
+}
+
+#main-comic-info .info-row .comic-availability .price,
+#main-comic-info .info-row .comic-availability .status,
+#main-comic-info .info-row .comic-availability .check {
+  padding: 18px;
+}
+
+#main-comic-info .info-row .comic-availability .status {
+  flex-grow: 2;
+  border-right: 1px solid #357739;
+}
+
+#main-comic-info .info-row .comic-availability span {
+  color: #FFF;
+  font-family: "Open Sans", sans-serif;
 }
 
 footer .footer-top {

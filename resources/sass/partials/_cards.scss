@@ -64,9 +64,35 @@
 
         }
         .adv-box {
-            width: 40%;            
+            width: 40%;
             img {
-                width: 100%;
+                width: 90%;
+            }
+            p {
+                font-size: $sizeUnit;
+            }
+        }
+
+        .comic-availability {
+
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            background-color: #55BA59;
+            border-bottom: 1px solid #357739;
+
+            .price, .status, .check {
+                padding: $sizeUnit * 1.8;
+            }
+
+            .status {
+                flex-grow: 2;
+                border-right: 1px solid #357739;
+            }
+
+            span {
+                color: #FFF;
+                font-family: $mainFont;
             }
         }
 

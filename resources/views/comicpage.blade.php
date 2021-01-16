@@ -16,6 +16,21 @@
         <div class="info-row">
             <div class="comic-info">
                 <h1 class="mt-2"> {{ $comic['title'] }}</h1>
+                <div class="comic-availability mt-4">
+                    <div class="price text-capitalize">
+                        <span>u.s. price : {{ $comic['price'] }}</span>
+                    </div>
+                    <div class="status text-right text-uppercase">
+                        <span>available</span>
+                    </div>
+                    <div class="check text-capitalize">
+                        <span>check availability</span>
+                    </div>
+
+                </div>
+                <div class="comic-description">
+
+                </div>
 
             </div>
             <div class="adv-box text-right">
