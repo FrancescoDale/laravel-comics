@@ -48,11 +48,19 @@
                 <ul>
                     <li>
                         <span class="label">Art by :</span>
-                        <span class="names"> </span>
+                        <span class="names">
+                            @foreach ($iterable as $key => $value)
+
+                            @endforeach
+                        </span>
                     </li>
                     <li>
                         <span class="label">Written by :</span>
-                        <span class="names">  </span>
+                        <span class="names">
+                            @foreach ($iterable as $key => $value)
+
+                            @endforeach
+                        </span>
                     </li>
                 </ul>
             </div>
@@ -61,15 +69,15 @@
                 <ul>
                     <li>
                         <span class="label">Series :</span>
-                        <span class="names"> xxxx </span>
+                        <span class="names">{{ $comic['series'] }} </span>
                     </li>
                     <li>
                         <span class="label">Price :</span>
-                        <span class="names"> xxxx </span>
+                        <span class="names">{{ $comic['price'] }}</span>
                     </li>
                     <li>
                         <span class="label">On sale date :</span>
-                        <span class="names"> xxxx </span>
+                        <span class="names">{{ $comic['sale_date'] }}</span>
                     </li>
                 </ul>
             </div>

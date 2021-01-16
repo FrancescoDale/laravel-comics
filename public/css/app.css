@@ -151,6 +151,7 @@ header .header-navbar .header-wrapper .logo img {
 
 #main-comic-info {
   font-family: "Open Sans", sans-serif;
+  padding: 40px;
 }
 
 #main-comic-info .info-row {
@@ -245,13 +246,19 @@ header .header-navbar .header-wrapper .logo img {
 
 #detail-comic-info .details-row .talent ul li span:first-child,
 #detail-comic-info .details-row .specs ul li span:first-child {
-  width: calc(100% / 3);
+  min-width: calc(100% / 3);
+  max-width: calc(100% / 5);
   flex-grow: 1;
 }
 
 #detail-comic-info .details-row .talent ul li span:last-child,
 #detail-comic-info .details-row .specs ul li span:last-child {
   flex-grow: 2;
+}
+
+#detail-comic-info .details-row .talent .name,
+#detail-comic-info .details-row .specs .name {
+  justify-content: flex-end;
 }
 
 footer .footer-top {
