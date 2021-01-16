@@ -237,6 +237,21 @@ header .header-navbar .header-wrapper .logo img {
 #detail-comic-info .details-row .talent ul li,
 #detail-comic-info .details-row .specs ul li {
   display: block;
+  display: flex;
+  padding: 5px;
+  border-top: 1px solid #E3E3E3;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+#detail-comic-info .details-row .talent ul li span:first-child,
+#detail-comic-info .details-row .specs ul li span:first-child {
+  width: calc(100% / 3);
+  flex-grow: 1;
+}
+
+#detail-comic-info .details-row .talent ul li span:last-child,
+#detail-comic-info .details-row .specs ul li span:last-child {
+  flex-grow: 2;
 }
 
 footer .footer-top {

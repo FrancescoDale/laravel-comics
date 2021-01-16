@@ -128,6 +128,19 @@
                 margin-top: $sizeUnit * 2;
                 li {
                     display: block;
+                    display: flex;
+                    padding: $sizeUnit / 2;
+                    border-top: 1px solid #E3E3E3;
+                    border-bottom: 1px solid #E3E3E3;
+
+                    span:first-child {
+                        width: calc(100% / 3);
+                        flex-grow: 1;
+                    }
+
+                    span:last-child {
+                        flex-grow: 2;
+                    }
                 }
             }
         }

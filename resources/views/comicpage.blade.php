@@ -61,15 +61,15 @@
                 <ul>
                     <li>
                         <span class="label">Series :</span>
-                        <span class="names">  </span>
+                        <span class="names"> xxxx </span>
                     </li>
                     <li>
                         <span class="label">Price :</span>
-                        <span class="names">  </span>
+                        <span class="names"> xxxx </span>
                     </li>
                     <li>
                         <span class="label">On sale date :</span>
-                        <span class="names">  </span>
+                        <span class="names"> xxxx </span>
                     </li>
                 </ul>
             </div>
