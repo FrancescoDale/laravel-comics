@@ -211,7 +211,8 @@ header .header-navbar .header-wrapper .logo img {
 #detail-comic-info {
   font-family: "Open Sans", sans-serif;
   background-color: #F5F5F5;
-  height: 200px;
+  padding-top: 20px;
+  padding-bottom: 80px;
 }
 
 #detail-comic-info .details-row {
@@ -227,7 +228,7 @@ header .header-navbar .header-wrapper .logo img {
 
 #detail-comic-info .details-row .talent,
 #detail-comic-info .details-row .specs {
-  width: 50%;
+  width: 45%;
 }
 
 #detail-comic-info .details-row .talent ul,
@@ -254,6 +255,13 @@ header .header-navbar .header-wrapper .logo img {
 #detail-comic-info .details-row .talent ul li span:last-child,
 #detail-comic-info .details-row .specs ul li span:last-child {
   flex-grow: 2;
+}
+
+#detail-comic-info .details-row .talent ul li a,
+#detail-comic-info .details-row .talent ul li a:hover,
+#detail-comic-info .details-row .specs ul li a,
+#detail-comic-info .details-row .specs ul li a:hover {
+  color: #0282F9;
 }
 
 #detail-comic-info .details-row .talent .name,

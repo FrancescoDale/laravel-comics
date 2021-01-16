@@ -49,16 +49,16 @@
                     <li>
                         <span class="label">Art by :</span>
                         <span class="names">
-                            @foreach ($iterable as $key => $value)
-
+                            @foreach ($comic['artists'] as $value)
+                                <a href="#">{{ $value }}</a>
                             @endforeach
                         </span>
                     </li>
                     <li>
                         <span class="label">Written by :</span>
                         <span class="names">
-                            @foreach ($iterable as $key => $value)
-
+                            @foreach ($comic['writers'] as $value)
+                                <a href="#">{{ $value }}</a>
                             @endforeach
                         </span>
                     </li>
