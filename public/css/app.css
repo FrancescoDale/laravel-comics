@@ -310,11 +310,7 @@ footer .footer-top-inner {
   background-position: cover;
   background-position: right;
   background-repeat: no-repeat;
-}
-
-footer .footer-top-left,
-footer .footer-top-right {
-  width: 50%;
+  display: flex;
 }
 
 footer .footer-bottom {

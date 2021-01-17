@@ -11,10 +11,11 @@ footer {
         background-position: cover;
         background-position: right;
         background-repeat: no-repeat;
-    }
+        display: flex;
 
-    .footer-top-left, .footer-top-right {
-        width: 50%;
+        .footer-top-menu {
+            
+        }
     }
 
     .footer-bottom {
