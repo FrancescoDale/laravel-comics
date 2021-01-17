@@ -27,7 +27,7 @@
                         </li>
                     </ul>
                     <h3 class="text-uppercase">shop</h3>
-                    <ul>
+                    <ul class="text-capitalize">
                         <li>
                             <a href="#">shop DC</a>
                         </li>

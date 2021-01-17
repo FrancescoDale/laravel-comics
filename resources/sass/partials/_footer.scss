@@ -3,24 +3,48 @@ footer {
     .footer-top {
         background-image: url('/images/footer-bg.jpg');
         background-size: cover;
-    }
 
-    .footer-top-inner {
-        padding: 200px 0;
-        background-image: url('/images/dc-logo-bg.png');
-        background-position: cover;
-        background-position: right;
-        background-repeat: no-repeat;
-        display: flex;
 
-        .footer-top-menu {
-            
+        .footer-top-inner {
+            padding: $sizeUnit * 3 0;
+            background-image: url('/images/dc-logo-bg.png');
+            background-position: cover;
+            background-position: right;
+            background-repeat: no-repeat;
+            display: flex;
+
+            .footer-top-menu {
+                padding-right: $sizeUnit * 3;
+                justify-content: flex-start;
+
+                h3 {
+                    color: #FFF;
+                }
+
+                ul {
+                    li {
+                        display: block;
+
+                        a {
+                            color: #F9F9F9;
+                            font-size: $sizeUnit * 1.2;
+                            padding: 2px 0;
+                        }
+                    }
+                }
+            }
+
         }
-    }
 
-    .footer-bottom {
-        background-color: $darkBackground;
-        padding-top: $sizeUnit * 10;
     }
+}
 
+.footer-top-notes {
+    color: #F9F9F9;
+    font-size: $sizeUnit * 1.2;
+}
+
+.footer-bottom {
+    background-color: $darkBackground;
+    padding-top: $sizeUnit * 10;
 }

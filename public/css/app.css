@@ -304,8 +304,8 @@ footer .footer-top {
   background-size: cover;
 }
 
-footer .footer-top-inner {
-  padding: 200px 0;
+footer .footer-top .footer-top-inner {
+  padding: 30px 0;
   background-image: url("/images/dc-logo-bg.png");
   background-position: cover;
   background-position: right;
@@ -313,7 +313,31 @@ footer .footer-top-inner {
   display: flex;
 }
 
-footer .footer-bottom {
+footer .footer-top .footer-top-inner .footer-top-menu {
+  padding-right: 30px;
+  justify-content: flex-start;
+}
+
+footer .footer-top .footer-top-inner .footer-top-menu h3 {
+  color: #FFF;
+}
+
+footer .footer-top .footer-top-inner .footer-top-menu ul li {
+  display: block;
+}
+
+footer .footer-top .footer-top-inner .footer-top-menu ul li a {
+  color: #F9F9F9;
+  font-size: 12px;
+  padding: 2px 0;
+}
+
+.footer-top-notes {
+  color: #F9F9F9;
+  font-size: 12px;
+}
+
+.footer-bottom {
   background-color: #1C1C1C;
   padding-top: 100px;
 }
